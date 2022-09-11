@@ -41,7 +41,7 @@ for filename in os.listdir(archive):
         file = os.path.join(archive, filename)
         with open(file, "r") as f:
             name = f.readline()
-            print(name.rstrip())
+            print("\n" + name.rstrip())
             f.close()
 
         # set goals
@@ -61,7 +61,7 @@ for filename in os.listdir(archive):
             f.close()
 
         # read goals
-        if mode == 2:
+        elif mode == 2:
             print_goals(file)
 
         # review goals
