@@ -1,7 +1,3 @@
 COMPUTER SCIENCE
 ________________________________________________________________
 
-09/09/2022
--Finish dayPlanner Project  :)
--Upload Projects on Github  :)
--Read about Hill's Cipher  :)
