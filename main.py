@@ -75,3 +75,6 @@ if mode == 3:
         eodt = str(input("End of day thoughts:\n"))
         f.write(eodt + "\n")
         f.close()
+
+
+input("\n\nPress Enter to close the program...")
