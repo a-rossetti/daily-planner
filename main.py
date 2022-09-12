@@ -72,7 +72,7 @@ for filename in os.listdir(archive):
 if mode == 3:
     with open("archive/eodt.txt", "a") as f:
         f.write("\n" + d + "\n")
-        eodt = str(input("End of day thoughts:\n"))
+        eodt = str(input("\n\nEnd of day thoughts:\n"))
         f.write(eodt + "\n")
         f.close()
 
