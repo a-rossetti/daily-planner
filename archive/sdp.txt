@@ -1,8 +1,2 @@
 Simple daily planner
 ________________________________________________________________
-
-02/12/2022
--Fix this program
--Piano
--The Emperor's New Mind: start reading chapter 2
--Listen to Bach's Magnificat
