@@ -74,7 +74,7 @@ def print_review_check(review=False):
                     print_goals(file, review)
 
 
-mode = int(input("What do you want to do?\n1.write goals\n2.read goals\n3.review goals\n"))
+mode = int(input("What do you want to do?\n1.write goals\n2.read goals\n3.review goals\n4.diary\n"))
 
 # write goals
 if mode == 1:
@@ -120,6 +120,14 @@ if mode == 3:
         f.write("\n" + d + "\n")
         eodt = str(input("\n\nEnd of day thoughts:\n"))
         f.write(eodt + "\n")
+        f.close()
+
+# diary
+if mode == 4:
+    with open("archive/diary.txt", "a") as f:
+        f.write("\n" + d + "\n")
+        thoughts = str(input("\n\nWrite your thoughts here:\n"))
+        f.write(thoughts + "\n")
         f.close()
 
 
