@@ -26,8 +26,6 @@ class GoalsManager:
         # read today's goals from goals.txt
         with open(self.filename, "r") as file:
             lines = file.readlines()
-            for line in lines:
-                print(f"Line: '{line}'")
             
             stripped_lines = [line.strip() for line in lines]
             if self.date in stripped_lines:
