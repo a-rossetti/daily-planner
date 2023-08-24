@@ -1,4 +1,4 @@
-## dailyPlanner
+## Daily Planner
 
 # v1
 - Code Organization: Refactored codebase for better clarity and maintainability.
